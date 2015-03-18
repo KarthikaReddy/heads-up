@@ -97,10 +97,10 @@
   <string-array name="overlayStyles">
     <item name="l">Android 5.0 \"L\" Светлая</item>
     <item name="ldark">Android 5.0 \"L\" Тёмная</item>
-    <item name="lblack">Android 5.0 \'Lollipop\' black</item>
+    <item name="lblack">Черный стиль Android 5.0 \'Lollipop\'</item>
     <item name="holo">Светлая</item>
     <item name="holodark">Тёмная</item>
-    <item name="random">Psychedelic (random)</item>
+    <item name="random">Психоделика (случайный)</item>
     <item name="ubuntu">Ubuntu</item>
   </string-array>
   <string name="pref_only_on_lock_screen">Только на экране блокировки</string>
@@ -131,9 +131,10 @@
   <string name="pref_top_margin_locked">Позиция всплывающего окна на экране блокировки</string>
   <string name="pref_dont_disturb_error">Предупреждение: Google удалила возможность получать доступ к запущенным приложениям  в Android 5.0, поэтому эта функция будет работать неправильно. Из документов:\ngetRecentTasks() —  В LOLLIPOP, этот метод больше не доступен сторонним приложениям: введение  document-centric recents может привести к потере персональных данных. При  совместимости с предыдущими версиями она будет возвращать небольшое подмножество данных: приложения пользователя, и возможно и другие не очень важные запущенные приложения такие как домашний экран .</string>
   <string name="pref_dismiss_on_swipe_desc">Удаляет уведомления из строки состояния, когда Вы проводите жестом по всплывающему уведомлению. (Вы все еще можете нажать на X, чтоб удалить.)</string>
-  <string name="pref_dismiss_keyguard_desc">Автоматически разблокировать телефон при открытии уведомления. \nВНИМАНИЕ! Это позволит всем желающим разблокировать телефон, независимо от настроек безопасности.</string>
   <string name="pref_broadcast_notifications">Широковещательные уведомления</string>
   <string name="pref_broadcast_notifications_desc">Дать другим моим приложениям доступ к уведомлениям. Это уменьшит использование оперативной памяти, если вы используете такие приложения, как Voiceify. Не включайте, пока приложение не попросит включить эту функцию.</string>
   <string name="title_broadcast_request">Доступ к уведомлениям</string>
   <string name="content_broadcast_request">Это даст %s доступ к вашим уведомлениям. Вы уверены что хотите это сделать?</string>
+  <string name="pref_show_non_cancelable">Показать уведомления, которые не могут быть отменены</string>
+  <string name="pref_show_non_cancelable_desc">Показывать постоянные, не очищаемые уведомления таких фоновых служб как \"Загрузки\".\nПримечание: Если некоторые уведомления невозможно удалить, попробуйте отключить их.</string>
 </resources>

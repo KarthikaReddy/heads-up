@@ -23,7 +23,7 @@
   <string name="reader_btn_dismiss">Rejeter</string>
   <string name="intro_desc">Appuyer ci-dessous pour activer/désactiver les notifications heads-up.</string>
   <string name="welcome_btn_toggleservice">Activer/Désactiver heads-up</string>
-  <string name="intro_warning_miui">Vous utilisez MIUI? Avant de pouvoir utiliser cette application, vous devez réduire un peu la sécurité.\n1. Aller à System Settings &gt; All &gt; Apps &gt; Downloaded &gt; Heads-up notifications.\n2. Activer \'Show popup windows\' (seconde option).\n3. En bas aller à \'Manage permissions\'.\n4. Sélectionner \'I trust this app\'. </string>
+  <string name="intro_warning_miui">Vous utilisez MIUI? Avant de pouvoir utiliser cette application, vous devez réduire un peu la sécurité.\n1. Aller à Paramètre Système &gt; Tout &gt; Aplications &gt; Téléchargés &gt; Heads-up notifications.\n2. Activer l\'interrupteur \'Show popup windows\' (seconde option).\n3. En bas aller à \'Manage permissions\'.\n4. Sélectionner \'I trust this app\'. </string>
   <string name="site_ad">Vous aimer ce que vous voyez ? Allez voir mes autres applications :</string>
   <string name="site_ad_link">Aller sur Simen.codes</string>
   <string name="title_activity_app_list">Filtrer les Applis</string>
@@ -129,9 +129,10 @@
   <string name="pref_top_margin_locked">Position de la fenêtre sur l\'écran de verrouillage</string>
   <string name="pref_dont_disturb_error">Attention: Google à retiré la possibilité d\'obtenir la liste des tâches en cours d\'exécution dans Android 5.0, donc cela ne fonctionnera pas correctement.</string>
   <string name="pref_dismiss_on_swipe_desc">Enlever la notification quand vous la balayez horizontalement. Vous pouvez toujours utiliser le bouton X.\n Requiers Android 4.3</string>
-  <string name="pref_dismiss_keyguard_desc">Débloquer le téléphone lors de l\'ouverture d\'une notification.\nATTENTION! N\'importe qui pourra débloquer votre téléphone, peut importe les paramétrages de sécurité.\n Ceci a été rendu obsolète dans Android et peut ne pas fonctionner correctement.</string>
   <string name="pref_broadcast_notifications">Diffuser les notifications</string>
   <string name="pref_broadcast_notifications_desc">Laisser mes autres applications accéder à vos notifications. Ceci réduira l\'utilisation de la RAM lors de l\'usage d\'applications comme Voiceify. Laisser inactif sauf si une de mes applications vous demande de l\'activer.</string>
   <string name="title_broadcast_request">Accès aux notifications</string>
   <string name="content_broadcast_request">Cela donnera %s accès à vos notifications. Êtes vous sur que c\'est ce que vous souhaitez ?</string>
+  <string name="pref_show_non_cancelable">Afficher les notifications non-annulables</string>
+  <string name="pref_show_non_cancelable_desc">Afficher les notifications en cours et non-éffaçables, déclenchées par des services d\'arrière-plan similaires aux téléchargements.\nNote : si certaines notifications refusent de s\'éffacer, essayez de désactiver cette option.</string>
 </resources>
